@@ -41,3 +41,6 @@ class Classifier:
     def predict(self, clf, test_data):
         y_pred = clf.predict(test_data)
         return y_pred
+
+
+
